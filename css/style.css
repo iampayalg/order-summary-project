@@ -1,0 +1,103 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+    --grayblue: rgb(114, 128, 167);
+}
+body {
+    background-color: rgb(224, 232, 255);
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+    font-family:'Red Hat Display';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    border-radius: 30px;
+    width: 480px;
+    height: 690px;
+}
+
+
+.hero {
+    border-radius:10px 10px 0px 0px;
+    width: 100%;
+}
+
+h1 {
+    color:rgb(31, 47, 86);
+    font-size: 30px;
+    padding: 20px 0px 0px;
+    font-weight: bolder;
+   
+}
+.text p {
+   color: var(--grayblue);
+   font-size: 16px;
+   padding: 0px 60px;
+   line-height: 25px;
+}
+.price {
+    display: flex;
+    align-items: center;
+    background-color:rgb(245, 247, 255) ;
+    margin: 25px 60px;
+    border-radius: 9px;
+    text-align: left;
+}
+.plan {
+    line-height: 0;
+    margin: 10px 0px ;
+}
+.icon {
+    margin: 20px;
+}
+.title{
+    color:rgb(31, 47, 86);
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+.amount {
+    color: var(--grayblue);
+    padding: 0px 90px 0px 0px;
+    line-height: 25px;
+}
+.price a {
+    color: hsl(245, 75%, 52%);
+    font-weight: bolder;
+    padding-right: 25px;
+}
+a:hover {
+    color:  hsl(246, 72%, 66%);
+    text-decoration: none;
+}
+.b1{
+        background-color:hsl(245, 75%, 52%);        ;
+        border: 0;
+        padding: 15px 105px;
+        border-radius: 10px;
+        color: white;
+        box-shadow: 0px 3px 15px 0px  hsl(246, 72%, 66%);
+}
+.b1:hover {
+   background-color:  hsl(246, 72%, 66%);
+}
+.b2 {
+    margin: 30px;
+    background: none;
+    border: 0;
+    color: var(--grayblue);
+    font-weight: bolder;
+}
+.b2:hover {
+    color: black;
+}
